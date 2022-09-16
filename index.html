@@ -1,20 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
-    <title>CV</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="/style.css">
+  <title>CV</title>
 </head>
 <body>
-    <header>
-        <nav>
-        </nav>
-    </header>
-    <main>
-    </main>
-    <footer>
-    </footer>
+  <main class="main">
+    <section class="left">
+      <img class="photo" src="/img/ava.png" alt="">
+      <article class="contact">
+        <h2 class="heading contact__heading">Contact_</h2>
+        <div class="contact__info">
+          <div class="contact__info-item">
+            <img src="/img/user-map-location-icon.svg" alt="" width="30px"><address class="contact__item">Republic of Belarus, Gomel region, Mozyr</address>
+          </div>
+          <div class="contact__info-item">
+            <img src="/img/call-icon.svg" alt="" width="30px"><a class="contact__item" href="tel:+375445000031">+375 (44) 500 00 31</a>
+          </div>
+          <div class="contact__info-item">
+            <img src="/img/sent-mail-icon.svg" alt="" width="30px"><a class="contact__item" href="mailto:bol.vadim333@gmai.com">bol.vadim333@gmail.com</a>
+          </div>
+          <div class="contact__info-item">
+            <img src="/img/telegram-black-icon.svg" alt="" width="30px"><a class="contact__item" href="t.me/voddybol">@voddybol</a>
+          </div>
+        </div>
+      </article>
+      <article class="education">
+        <h2 class="heading education__heading">Education_</h2>
+        <h3 class="education__spec">Pipeline transportation of oil and oil products</h3>
+        <p class="education__university">Polotsk State University</p>
+        <p class="education__years">2015-2019</p>
+      </article>
+    </section>
+    <section class="right">
+      <article class="hero">
+        <h1 class="hero__name">Vadim<br><strong>Bolotov</strong></h1>
+        <h2 class="hero__job">WEB DESIGNER</h2>
+      </article>
+      <article class="experience">
+        <h2 class="heading experience__heading">Job Experience_</h2>
+        <div class="job__info">
+          <p class="job__period">2022-Present</p>
+          <p class="job__position"><strong>Project manager</strong></p>
+          <p class="job__name">Rocket Project LLC</p>
+          <div class="job__desc">Data labeling company for machine learning. Mark up photos, video materials, text documents and audio recordings. The company works with 12 industries from medicine to robotics.</div>
+        </div>
+        <div class="job__info">
+          <p class="job__period">2019-Present</p>
+          <p class="job__position"><strong>Lead engineer</strong></p>
+          <p class="job__name">PJSC Transneft</p>
+          <div class="job__desc">The leading enterprise in the CIS for the transportation of oil and petroleum products by pipeline.</div>
+        </div>
+        <div class="job__info">
+          <p class="job__period">2018-2020</p>
+          <p class="job__position"><strong>Data markup specialist</strong></p>
+          <p class="job__name">Science Sight LLC</p>
+          <div class="job__desc">Data labeling company for machine learning.</div>
+        </div>
+      </article>
+      <article class="skills">
+        <h2 class="heading skills__heading">Skills_</h2>
+        <div class="skill__list">
+        <div class="skill__list">
+          <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">HTML, CSS</div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 20%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">JavaScript</div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 80%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Photoshop</div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 40%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Figma</div>
+          </div>
+        </div>
+      </article>
+      <article class="interests">
+        <h2 class="heading interests__heading">Interests_</h2>
+        <div class="interests__list">
+          <div class="interests__item">
+            <img src="/img/travel-icon.svg" alt="" width="30px"><span class="interests__item">Travelling</span>
+          </div>
+          <div class="interests__item">
+            <img src="/img/gaming-gamepad-icon.svg" alt=""width="30px"><span class="interests__item">Gaming</span>
+          </div>
+          <div class="interests__item">
+            <img src="/img/car-driving-on-road-icon.svg" alt="" width="30px"><span class="interests__item">Driving</span>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
 </body>
 </html>
