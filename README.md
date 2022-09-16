@@ -1,2 +1,3 @@
 # rsschool-cv
-RSS Task: CV
+
+https://voddybol/rsschool-cv/cv
